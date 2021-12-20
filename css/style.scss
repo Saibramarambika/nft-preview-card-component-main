@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+$Softblue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+$Verydarkblue1 : hsl(217, 54%, 11%);
+$Verydarkblue2: hsl(216, 50%, 16%);
+$Verydarkblue : hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+html{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    padding-top: 3rem;
+    padding-left: 32rem;
+    padding-right: 32rem;
+    background-color: $Verydarkblue1;
+    .sec1{
+        background-color: $Verydarkblue2;
+        border-radius: 0.3rem;
+        .image{
+            width: 19 rem;
+            height: 18rem;
+            border-radius: 0.3rem;
+            margin: 1rem;
+        }
+        .imag:hover {
+            background-color: $Cyan;
+            background-image: url(../images/icon-view.svg);
+        }
+        
+        .sec2{
+            margin: 1rem;
+            h3{
+                color: $White;
+            }
+            h3:hover {
+                color:$Cyan;
+            }
+            #p1{
+                color: $Softblue;
+            }
+            #p2{
+                color: $Cyan;
+                font-weight: 1200;
+                span{
+                    color: white;
+                }
+                img{
+                    width: 1rem;
+                    height: 1rem;
+                    margin: 0px;
+                    
+                }
+            }
+            #p3{
+                color: $Softblue;
+                padding-bottom: 1rem;
+                span:hover{
+                    color: $White;
+                }
+                img{
+                    width: 1rem;
+                    height: 1rem;
+                    margin: 0px;
+                    
+                }
+            }
+
+        }
+    }
+}

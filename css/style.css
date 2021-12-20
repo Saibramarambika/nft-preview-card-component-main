@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+html {
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  padding-top: 3rem;
+  padding-left: 32rem;
+  padding-right: 32rem;
+  background-color: #0d192b;
+}
+
+body .sec1 {
+  background-color: #14253d;
+  border-radius: 0.3rem;
+}
+
+body .sec1 .image {
+  width: 19 rem;
+  height: 18rem;
+  border-radius: 0.3rem;
+  margin: 1rem;
+}
+
+body .sec1 .imag:hover {
+  background-color: #00fff7;
+  background-image: url(../images/icon-view.svg);
+}
+
+body .sec1 .sec2 {
+  margin: 1rem;
+}
+
+body .sec1 .sec2 h3 {
+  color: white;
+}
+
+body .sec1 .sec2 h3:hover {
+  color: #00fff7;
+}
+
+body .sec1 .sec2 #p1 {
+  color: #8bacda;
+}
+
+body .sec1 .sec2 #p2 {
+  color: #00fff7;
+  font-weight: 1200;
+}
+
+body .sec1 .sec2 #p2 span {
+  color: white;
+}
+
+body .sec1 .sec2 #p2 img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0px;
+}
+
+body .sec1 .sec2 #p3 {
+  color: #8bacda;
+  padding-bottom: 1rem;
+}
+
+body .sec1 .sec2 #p3 span:hover {
+  color: white;
+}
+
+body .sec1 .sec2 #p3 img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0px;
+}
+/*# sourceMappingURL=style.css.map */
